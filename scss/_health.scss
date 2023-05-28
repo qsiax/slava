@@ -1,0 +1,47 @@
+.health {
+
+    &__container {
+        overflow: visible;
+        position: relative;
+        min-height: 100vh;
+    }
+
+    &__body {
+        background: $primary-color;
+        border-top-left-radius: 43px;
+        border-top-right-radius: 43px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: $bg;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 73px;
+        padding-bottom: 100px;
+    }
+
+    &__heading {
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 115px;
+        margin-bottom: 53px;
+    }
+
+    &__item-wrapper {
+        display: flex;
+    }
+
+    &__item {
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 77px;
+        &:first-child {
+            margin-right: 308px;
+        }
+    }
+}

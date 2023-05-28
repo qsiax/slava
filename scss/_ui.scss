@@ -1,0 +1,14 @@
+$main-color: #000;
+$primary-color: #717171;
+$secondary-color: #7FCFC5;
+$text: #fff;
+$text-secondary: #AAAAAA;;
+$transition: all .5s ease;
+$font: 'Bebas Neue', sans-serif;
+$bg-main: linear-gradient(180deg, #91B484 0%, rgba(7, 96, 85, 0.71) 100%);
+$bg: linear-gradient(180deg, #595050 0%, rgba(92, 90, 90, 0) 100%);
+
+.bg {
+    background: $bg-main;
+    min-height: 100vh;
+}

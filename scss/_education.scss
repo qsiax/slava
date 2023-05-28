@@ -1,0 +1,48 @@
+.education {
+
+    &__container {
+        overflow: visible;
+        position: relative;
+        min-height: 100vh;
+    }
+
+    &__body {
+        background: $primary-color;
+        border-top-left-radius: 43px;
+        border-top-right-radius: 43px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: $bg;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 97px;
+    }
+
+    &__heading {
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 115px;
+        margin-bottom: 24px;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 115px;
+        margin-bottom: 202px;
+        max-width: 752px;
+    }
+
+    &__des {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        padding-bottom: 89px;
+    }
+}

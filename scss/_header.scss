@@ -1,0 +1,41 @@
+.header {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 60px;
+        height: 60px;
+        background: url(/source/logo.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 6px;
+    }
+
+    &__logo-text {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        text-transform: uppercase;
+    }
+
+    &__contact {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
