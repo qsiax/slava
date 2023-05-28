@@ -191,7 +191,7 @@ body li {
 .header__logo {
   width: 60px;
   height: 60px;
-  background: url(/source/logo.svg);
+  background: url(../source/logo.svg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: 6px;
@@ -232,7 +232,7 @@ body li {
   top: 0;
   height: 660px;
   width: 100%;
-  background: url(/source/main-bg.png);
+  background: url(../source/main-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.7;
@@ -297,7 +297,7 @@ body li {
   margin-right: 0;
 }
 .home__item:nth-child(1) {
-  background: url(/source/item-01.png);
+  background: url(../source/item-01.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -305,12 +305,12 @@ body li {
   color: #000;
 }
 .home__item:nth-child(2) {
-  background: url(/source/item-02.png);
+  background: url(../source/item-02.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .home__item:nth-child(3) {
-  background: url(/source/item-03.png);
+  background: url(../source/item-03.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -318,7 +318,7 @@ body li {
   color: #000;
 }
 .home__item:nth-child(4) {
-  background: url(/source/item-04.png);
+  background: url(../source/item-04.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
