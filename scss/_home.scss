@@ -21,7 +21,7 @@
         top: 0;
         height: 660px;
         width: 100%;
-        background: url(/source/main-bg.png);
+        background: url(../source/main-bg.png);
         background-repeat: no-repeat;
         background-size: cover;
         opacity: 0.7;
@@ -73,7 +73,7 @@
             margin-right: 0;
         }
         &:nth-child(1) {
-            background: url(/source/item-01.png);
+            background: url(../source/item-01.png);
             background-repeat: no-repeat;
             background-size: cover;
             .home__item-text {
@@ -81,12 +81,12 @@
             }
         }
         &:nth-child(2) {
-            background: url(/source/item-02.png);
+            background: url(../source/item-02.png);
             background-repeat: no-repeat;
             background-size: cover;
         }
         &:nth-child(3) {
-            background: url(/source/item-03.png);
+            background: url(../source/item-03.png);
             background-repeat: no-repeat;
             background-size: cover;
             .home__item-text {
@@ -94,7 +94,7 @@
             }
         }
         &:nth-child(4) {
-            background: url(/source/item-04.png);
+            background: url(../source/item-04.png);
             background-repeat: no-repeat;
             background-size: cover;
         }
